@@ -2,14 +2,8 @@
 
 <style>
 	main {
-		position: absolute;
-		left: 15%;
-		top: 0%;
+		flex-grow: 1;
 
-		padding-left: 1em;
-
-		min-height: 100%;
-		min-width: 85%;
 		background-color: #eff1f5; /* Latte Base */
 		color: #4c4f69; /* Latte Text */
 	}

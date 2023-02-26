@@ -11,8 +11,7 @@
 
 <style>
 	.Sidebar {
-		max-width: 15%;
-		min-height: 100%;
+		min-width: 300px;
 		background-color: #dce0e8; /* Latte Crust */
 		color: #5c5f77; /* Latte Subtext1 */
 		font-family: Arial, Helvetica, sans-serif;
