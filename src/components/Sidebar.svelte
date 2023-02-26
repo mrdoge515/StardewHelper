@@ -4,9 +4,9 @@
 <div class="Sidebar">
 	<h1>StardewHelper</h1>
 
-	<a href="/seasonGoals">Seasonal goals</a>
-	<a href="/dwa">Community bundles</a>
-	<a href="/2">Calendar</a>
+	<a href="/seasonGoals">Seasonal goals</a> <br />
+	<a href="/communityBundles">Community bundles</a> <br />
+	<a href="/calendar">Calendar</a>
 </div>
 
 <style>
@@ -35,7 +35,7 @@
 	a:hover {
 		color: #d20f39; /* Latte Red */
 		animation: linkAnim 1s;
-		font-size: 2em;
+		font-size: 1.6em;
 	}
 
 	/* Dark Mode */
