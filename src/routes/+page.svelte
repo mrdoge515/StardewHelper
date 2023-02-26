@@ -1,5 +1,9 @@
 <main>This is an example content of this website!</main>
 
+<svelte:head>
+	<title>StardewHelper</title>
+</svelte:head>
+
 <style>
 	main {
 		flex-grow: 1;
