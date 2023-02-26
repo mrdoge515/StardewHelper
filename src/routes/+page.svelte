@@ -1,58 +1,23 @@
-<script lang="ts">
-	import '../main.css';
-</script>
-
-<main>
-	<h1>StardewHelper</h1>
-	<a href="https://mrdoge.xyz">Under construction</a>
-</main>
-
-<svelte:head>
-	<title>StardewHelper</title>
-</svelte:head>
+<main>This is an example content of this website!</main>
 
 <style>
 	main {
+		position: absolute;
+		left: 15%;
+		top: 0%;
+
+		padding-left: 1em;
+
 		min-height: 100%;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-
-		background-color: #eff1f5;
-	}
-
-	h1 {
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 3em;
-		color: #4c4f69;
-		transition: color 0.5s ease-in;
-	}
-
-	a {
-		font-family: Arial, Helvetica, sans-serif;
-		font-size: 2em;
-		color: #4c4f69;
-		transition: color 0.5s ease-in;
-	}
-	a:hover {
-		color: #dc8a78;
+		min-width: 85%;
+		background-color: #eff1f5; /* Latte Base */
+		color: #4c4f69; /* Latte Text */
 	}
 
 	@media (prefers-color-scheme: dark) {
 		main {
-			background-color: #24273a;
-		}
-
-		h1 {
-			color: #cad3f5;
-		}
-
-		a {
-			color: #cad3f5;
-		}
-		a:hover {
-			color: #f4dbd6;
+			background-color: #24273a; /* Macchiato Base */
+			color: #cad3f5; /* Macchiato Text */
 		}
 	}
 </style>
